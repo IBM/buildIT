@@ -1,5 +1,5 @@
 # buildIT
-Transform tabularized Terraform data into Terraform resources.
+Transform data into Terraform resources.
 
 ## Overview
 
