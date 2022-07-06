@@ -1,5 +1,6 @@
 # buildIT
-Transform data into Terraform resources.
+
+Automate Terraform for IBM IT architecture resources.
 
 ## Overview
 
