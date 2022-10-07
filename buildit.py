@@ -192,7 +192,7 @@ class buildit():
                 done = True
 
         elif self.common.isGUIMode(args.runmode):
-            from tkinter import Button, Entry, filedialog, Frame, IntVar, Label, messagebox, StringVar, Tk, LEFT, RIGHT, TOP, E, W, X
+            from tkinter import Button, Entry, filedialog, Frame, IntVar, Label, messagebox, OptionMenu, StringVar, Tk, LEFT, RIGHT, TOP, E, W, X
         
             self.top = Tk()
             self.title = self.common.getToolCopyright().split(' - ')
