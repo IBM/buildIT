@@ -1,11 +1,11 @@
 # Terraform Steps
 
-## Setup tabular-terraform files
+## Setup buildIT files
 
-1. [Download tabular-terraform](/releases/releases.md)
-2. Unzip the tabular-terraform release archive into a location as desired.
+1. [Download buildit](/releases/releases.md)
+2. Unzip the buildit release archive into your location.
 
-## Customize tabular-terraform data
+## Customize buildIT data
 
 1. Modify vars spreadsheet as desired including:
 - vpc-name
@@ -18,7 +18,7 @@
 
 ## Create Terraform resources and apply
 
-1. Execute the tabular-terraform transform executable with your input data folder and output resources folder:  
+1. Execute the buildit executable with your input data folder and output resources folder:  
 - bin/transform -o resources data
 2. Execute Terraform in your resources folder:
 - terraform fmt

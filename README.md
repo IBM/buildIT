@@ -4,7 +4,7 @@ Automate Terraform for IBM IT architecture resources.
 
 ## Overview
 
-- Latest release: [2.0.0](/releases/releases.md)
+- Latest release: [2.0.1](/releases/releases.md)
 - Terraform data is maintained in spreadsheets where possible and transformed from spreadsheets into Terraform resources.
 - Using spreadsheets improves viewability and maintainability of Terraform.
 - Example webappvpc includes use of Terraform cloudinits and Ansible Playbooks to configure applications.
@@ -23,10 +23,9 @@ Automate Terraform for IBM IT architecture resources.
 
 # Prerequisites
 
-1. IBM Cloud Terraform Provider 1.19.0
-2. Terraform 0.13.5
-3. Ansible 2.9.11
-4. Python 3.8.2
+1. Terraform 1.1.9
+2. Ansible 2.9.23
+3. Python 3.10.5
 
 ## Usage (Transitioning to Schematics)
 

@@ -8,7 +8,7 @@
 2. Copy playbooks/inventory/group_vars/all-sample.yaml to all.yaml and modify:
 - dbpassword
 - logdna_key
-- sysgig_key 
+- sysdig_key 
 
 
 ## Execute Ansible

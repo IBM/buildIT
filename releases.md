@@ -1,5 +1,6 @@
-# tabular-terraform releases
+# buildIT releases
 
+- 2.0.1 (08/26/22) : Added Ubuntu 22.
 - 2.0.0 (07/04/21) : Added GUI and build dist app. 
 
 - 1.19.0.0 : Upgraded to provider 1.19.0.
