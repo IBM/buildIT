@@ -4,7 +4,6 @@ Automate Terraform for IBM IT architecture resources.
 
 ## Overview
 
-- Latest release: [2.0.1](/releases/releases.md)
 - Terraform data is maintained in spreadsheets where possible and transformed from spreadsheets into Terraform resources.
 - Using spreadsheets improves viewability and maintainability of Terraform.
 - Example webappvpc includes use of Terraform cloudinits and Ansible Playbooks to configure applications.
