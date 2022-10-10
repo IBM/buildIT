@@ -1,6 +1,6 @@
 # buildIT
 
-Automate Terraform for IBM IT architecture resources.
+Automate creation of basic Terraform scripts for IBM IT architecture resources.
 
 ## Overview
 
