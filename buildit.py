@@ -110,7 +110,7 @@ class buildit():
 
    def __init__(self):
       self.common = Common()
-      self.title = self.common.getToolCopyright().split(' - ')
+      self.title = self.common.getToolTitle()
 
    #print(COPYRIGHT)
    #print(toolheader)
@@ -131,7 +131,7 @@ class buildit():
         parser.add_argument('-type', dest='inputtype', default=self.common.getInputType(), help='input type')
 
         parser.add_argument('-mode', dest='runmode', default=self.common.getRunMode().value, help="No gui (batch mode)")
-        parser.add_argument('--version', action='version', version='buildIT ' + self.common.getToolCopyright().split(' ')[1])
+        parser.add_argument('--version', action='version', version='buildIT ' + self.common.getToolTitle().split(' ')[1])
         
         args = parser.parse_args()
 
@@ -195,8 +195,8 @@ class buildit():
             from tkinter import Button, Entry, filedialog, Frame, IntVar, Label, messagebox, OptionMenu, StringVar, Tk, LEFT, RIGHT, TOP, E, W, X
         
             self.top = Tk()
-            self.title = self.common.getToolCopyright().split(' - ')
-            self.top.title(self.title[0])
+            self.title = self.common.getToolTitle()
+            self.top.title(self.title)
             self.statusText = StringVar()
 
             frame = Frame(self.top)
