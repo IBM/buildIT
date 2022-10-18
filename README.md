@@ -37,7 +37,6 @@ Automate creation of basic Terraform scripts for IBM IT architecture resources.
 - [drawIT](https://github.com/IBM/drawit)
 - [IT Architecture Diagrams](https://github.com/IBM/it-architecture-diagrams)
 - [Code Pattern](https://github.com/IBM/codepattern-multitier-vpc)
-- [Schematics](https://cloud.ibm.com/docs/schematics?topic=schematics-getting-started&interface=ui)
 
 ## License
 
